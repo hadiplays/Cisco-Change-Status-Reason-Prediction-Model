@@ -3,14 +3,15 @@ A machine learning model that predicts the change status reason of a Cisco netwo
 Leveraged a network change management CSV file with approximately 30,000 rows of network change data to train the 
 predictive model, enabling the identification of reasons for specific change statuses and the correlation with product types.
 - [Powerpoint with more information](https://github.com/hadiplays/Cisco-Change-Status-Reason-Prediction-Model/blob/main/Internship%20Recap%202023.pptx)
-## Table of Contents
 
+## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [Data](#data)
 - [Contact](#contact)
 
+<div id=installation>
 ## Installation :floppy_disk:
 To install and use the project, you must have the latest version of Python, Anaconda, and Jupyter Notebook installed on your device. Links to both are provided below:
 - [Python](https://www.python.org/downloads/)
@@ -21,19 +22,24 @@ To install and use the project, you must have the latest version of Python, Anac
   - If Anaconda is not downloaded, run the program on any other IDE of your liking (we reccomend VS Code) :)
   - To install different Python libraries, you can run `pip install` followed by the library you choose to download or, if you downloaded Anaconda, you can run `conda install` followed by the library of your choosing. 
   - Note: some Python libraries might not have `conda install`, so its still fine to run `pip install' while using Anaconda.
-
+</div>
+<div id="usage">
 ## Usage :computer:
 After downloading all the necessary tech stack above, you can successfully run the `Change Status Reason Prediction Model.ipynb` file. To do this run each individual block of code in order from top to bottom 
 to finalize before you reach the classification models. Run the classification models and review the results that are produced. Data on accuracy, precision, f1 score, and recall will be shown for each model 
 as well as their respective confusion matrices.
-
+</div>
+<div id="contributing">
 ## Contributing :family:
 Others can contribute to the project by:
 - Feeding the model more training data in order for it to better predict the correct results.
 - Keeping track of any new issues added to the GitHub repository.
-
+</div>
+<div id="data">
 ## Data :link:
 - [NCM-Change Management - Results - CISCO dataset](https://github.com/hadiplays/Cisco-Change-Status-Reason-Prediction-Model/blob/main/NCM-Change%20Management%20-%20Results%20-%20CISCO.xlsx)
-
+</div>
+<div id="contact">
 ## Contact :email:
 If you have any questions, concerns, or contributions contact: [Hadi](https://github.com/hadiplays) :construction_worker:
+</div>
